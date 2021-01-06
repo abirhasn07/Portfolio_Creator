@@ -321,7 +321,7 @@ p {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    background-image: linear-gradient(45deg, #5350D6, rgb(236, 160, 146));
+    background-image: linear-gradient(45deg,rgb(231, 98, 75),#5350D6 );
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
