@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    list-style: none;
+    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: slateblue;
+    line-height: 80px;
+    letter-spacing: -2px;
+    opacity: 60%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: dimgray;
+}
+
+.highlight {
+    color: lightcoral;
+}
+
+.logo {
+    width: 50%;
+    background-color: red;
+    height: 50px;
+}
+
+.menu {
+    width: 50%;
+    background-color: green;
+    height: 50px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 8px 16px;
+    justify-content: end;
+}
+
+/* main css */
+
+.text_section {
+    width: 40%;
+    margin: 4%;
+}
+
+.text_section p {
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.text_section a {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.image_section {
+    width: 40%;
+    margin-left: 4%;
+}
+
+.image_section img {
+    width: 100%;
+    margin-top: -80px;
+}
+
+/* About Section CSS */
+
+.text_section h2 {
+    color: #5350D6;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    opacity: 60%;
+}
+
+.text_section #About_paragraph {
+    color: #000000;
+    margin-left: 50px;
+    width: 100%;
+}
+
+#Download_btn {
+    margin-left: 50px;
+}
+
+/* Skill Section CSS */
+
+#my_skill {
+    width: 100%;
+    background-color: #F5f5f5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Skill_Div {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.skill_headline {
+    text-align: center;
+    color: #5350D6;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 60%;
+    padding-top: 30px;
+}
+
+.skill_sec_1 {
+    width: 45%;
+    
+    margin-left: 5%;
+}
+
+.skill_sec_2 {
+    width: 45%;
+   
+    margin-left: 5%;
+}
+
+.Skill_Div li {
+    margin: 20px 60px;
+}
+
+.skill_h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: dimgrey;
+}
+
+.bar {
+    display: block;
+    height: 10px;
+    background-color: #F8B564;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    opacity: 60%;
+}
+
+.bar .html {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 90%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    opacity: 100%;
+}
+
+.bar .css {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 75%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.bar .javascript {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 65%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.bar .react {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 55%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.bar .python {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 90%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.bar .nodejs {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 40%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.bar .c_sharpe {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 50%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.bar .android {
+    height: 10px;
+    float: left;
+    background-color: #5350D6;
+    width: 45%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* Latest Project css section */
+
+#latest_section {
+    background-color: #f8f8ff;
+}
+
+.col_3 {
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.col_3 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.project_headline {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #5350D6;
+    opacity: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.latest_paragraph {
+    text-align: center;
+}
+
+/* WorkIquary css  */
+
+.work_inquery {
+    width: 800px;
+    height: 150px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-image: linear-gradient(45deg, #5350D6, rgb(236, 160, 146));
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.work_headline {
+    width: 50%;
+    height: 150px;
+}
+
+.work_headline>h2 {
+    color: #f1f1f1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.Lets_chat_btn {
+    width: 50%;
+    height: 150px;
+    padding-top: 65px;
+    padding-left: 120px;
+  
+   
+}
+
+.Lets_chat_btn>a {
+    padding: 10px 20px;
+    background-image: linear-gradient(23deg, tomato, lightcoral);
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #f1f1f1;
+    margin-left: 80px;
+    
+    
+
+}
+
+
+/* Footer Css */
+h5{color: dimgray;
+text-transform: uppercase;
+text-align: center;
+font-family: 'Poppins',sans-serif;
+font-size: 18px;
+font-weight: 500;}
+
+.icon{width: 400px;
+margin: 0 auto;
+padding-left: 80px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 50px;}
+.icon img{width: 15%;
+margin-left: 30px;
+}
