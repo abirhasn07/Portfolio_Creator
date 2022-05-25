@@ -9,6 +9,31 @@ body {
     
 }
 
+
+
+nav .container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+}
+nav .container .logo{
+    flex-basis: 20%;
+    text-transform: uppercase;
+}
+.nav-list{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.nav-list li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -41,7 +66,7 @@ p {
 
 .logo {
     width: 50%;
-    background-color: red;
+
     height: 50px;
 }
 
