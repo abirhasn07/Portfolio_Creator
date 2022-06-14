@@ -2,189 +2,287 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abir Hasan Porfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Link Swiper's CSS -->
+   <link
+   rel="stylesheet"
+   href="https://unpkg.com/swiper/swiper-bundle.min.css"
+   />
+   <!-- Link Swiper's CSS -->
+  <!-- custom css  -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <!-- custom css  -->
+
+  <!-- fontawesomen cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fontawesomen cdn  -->
+  
+  <title>Portfolio Creator</title>
+
 </head>
 
 <body>
+  <!-- -----navbar-------- -->
+  <nav id="nav" class="">
+    <div class="container">
+      <div class="logo">
+        Portfolio Creator
+      </div>
+      <ul class="nav-list">
+        <li><a href="#home" class="list-item">Home</a></li>
+        <li><a href="#service" class="list-item">Services</a></li>
+        <li><a href="#projects" class="list-item">Projects</a></li>
+        <li><a href="#contact" class="list-item">Contact</a></li>
+       
+      </ul>
 
-    <nav>
-        <div class="container">
-            <div class="logo">
-                Abir Hasan
-            </div>
+      <div class="mobile-menu">
+        <i class="fa-solid fa-bars openMenu"  onclick="showMenu()"></i>
+        <i class="fa-solid fa-xmark closeMenu " onclick="showMenu()"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- -----navbar-------- -->
 
-            <ul class="nav-list">
-                <li>Home</li>
-                <li>Skill</li>
-                <li>Projcets</li>
-                <li>Contact Me</li>
-            </ul>
+  <!-- hero section  -->
+  <header id="home">
+    <div class="container">
+      <div class="header-info">
+        <h1 class="header-title">
+          <span>I design products</span>
+          that delight and inspire people.
+        </h1>
+        <p class="header-subtitle">
+          Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.
+        </p>
+
+        <div class="header-btns">
+          <button class="call-btn">Contact Me</button>
+          <button class="download-btn">Download CV</button>
         </div>
-    </nav>
+      </div>
+      <div class="header-image">
+        <img src="./images/Portfolio-main.png" alt="Portfolio image">
+      </div>
+    </div>
+  </header>
+  <!---------------------------------- hero section----------------------------------------------  -->
+  <!---------------------------------- service section----------------------------------------------  -->
 
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="text_section">
-                    <h1>HELLO I'M</h1>
-                    <H1 class="highlight">ROB DAVIDSON</H1>
-                    <P>A full Stack Web Developer Lorem ipsum<br> dolor sit amet Lorem ipsum dolor sit amet.</P>
-                    <a href="https://twitter.com/the_venus07" target="blank">Hire Me</a>
-                </div>
+  <section id="service">
+    <div class="service-header">
+      <h4 class="subtitle">Service</h4>
+      <h2 class="section-title">Design that solves problems,one product at a time.</h2>
+    </div>
+    <div class="container service-container">
 
-                <div class="image_section">
-                    <img src="images/do not use this pic.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-
-        <div class="container">
-            <div class="row">
-                <div class="image_section">
-                    <img src="images/do not use this pic2.png" alt="">
-                </div>
-                <div class="text_section">
-                    <h2>ABOUT</h2>
-                    <p id="About_paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolore
-                        facilis, obcaecati odit consequatur ipsum id dolorum, asperiores ab voluptatem laudantium error
-                        ipsam sunt, possimus harum ullam debitis reiciendis? Tempora.</p>
-                    <a href="https://www.facebook.com/IamAbir23/" id="Download_btn" target="blank">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- My Skill Section Start-->
-    <section id="my_skill">
-        <div class="container">
-            <h2 class="skill_headline">My Skills</h2>
-            <div class="Skill_Div">
-                <div class="row">
-                    <div class="skill_sec_1">
-                        <li>
-                            <h3 class="skill_h3">HTML5</h3><span class="bar"><span class="html"></span></span>
-                        </li>
-                        <li>
-                            <h3 class="skill_h3">CSS3</h3><span class="bar"><span class="css"></span></span>
-                        </li>
-                        <li>
-                            <h3 class="skill_h3">JAVASCRIPT</h3><span class="bar"><span
-                                    class="javascript"></span></span>
-                        </li>
-                        <li>
-                            <h3 class="skill_h3">REACT JS</h3><span class="bar"><span class="react"></span></span>
-                        </li>
-                    </div>
-                    <div class="skill_sec_2">
-                        <li>
-                            <h3 class="skill_h3">PYTHON</h3><span class="bar"><span class="python"></span></span>
-                        </li>
-                        <li>
-                            <h3 class="skill_h3">NODEJS</h3><span class="bar"><span class="nodejs"></span></span>
-                        </li>
-                        <li>
-                            <h3 class="skill_h3">C#</h3><span class="bar"><span class="c_sharpe"></span></span>
-                        </li>
-                        <li>
-                            <h3 class="skill_h3">ANDROID</h3><span class="bar"><span class="android"></span></span>
-                        </li>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- My Skill Section End-->
-
-    <!-- Latest Project Section Start -->
-
-
-
-    <section id="latest_section">
-        <div class="container">
-
-
-            <h2 class="skill_headline"> <SPAN class="highlight">LATEST</SPAN> WORKING PROJECT</h2>
-            <div class="row">
-                <div class="col_3">
-                    <img src="images/image 4.png" alt="">
-                    <h4 class="project_headline">Power X GYM (Gym Website)</h4>
-                    <p class="latest_paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, culpa?</p>
-                </div>
-                <div class="col_3">
-                    <img src="images/image 5.png" alt="">
-                    <h4 class="project_headline">Creative Agency</h4>
-                    <p class="latest_paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum!</p>
-                </div>
-
-                <div class="col_3">
-                    <img src="images/image 8.png" alt="">
-                    <h4 class="project_headline">Hard Rock Music</h4>
-                    <p class="latest_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                        inventore.</p>
-                </div>
-            </div>
-        </div>
-
-
-
-
-    </section>
-    <!-- Latest Project Section End -->
-
-
-    <!-- last section Start -->
-
-
-    <section>
-        <div class="container">
-            <div class="work_inquery">
-                
-                    <div class="row">
-                        <div class="work_headline">
-                            <h2>WORK INQUARY</h2>
-                    
-                        </div>
-                <div class="Lets_chat_btn">
-                    <a href="">Let Chat</a>
-                </div>
-                    </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- last section End -->
-    <!-- footer section start -->
-
-    <Footer>
-       <div class="container">
-        <h5>Stay Connected</h5>
-        <h4 class="project_headline">abir@design.com</h4>
-    
-        <div class="icon">
-            <div class="row">
-                <img src="images/icons/image 7.png" alt="">
-                <img src="images/icons/image 6.png" alt="">
-                <img src="images/icons/Group 33059.png" alt="">
-            </div>
-        </div>
-
+      <div class="service-card card">
+        <h6 class="card-title">What I can do for you</h6>
+        <li>Design Strategy</li>
+        <li>Fastest products  Design</li>
+        <li>Web and Mobile App Design</li>
+        <li>Front-end Development</li>
+        <li>Backend Development</li>
+      </div>
+      <div class="service-card card">
+        <h6 class="card-title">What you can expect</h6>
+        <li>Clean and functional</li>
+        <li>Device and user friendly</li>
+        <li>Efficient and maintainable</li>
+        <li>Fully Responsive Website</li>
+        <li>24/7 Supports </li>
+      </div>
+      <div class="service-card card">
+        <h6 class="card-title">Applications I'm fluent in</h6>
+        <li>Vs Code</li>
+        <li>Figma </li>
+        <li>Webflow</li>
+        <li>Editor X</li>
+        <li>Wordpress</li>
+      </div>
+     
+    </div>
+  </section>
+  <!---------------------------------- service section----------------------------------------------  -->
+  <!---------------------------------- projects section----------------------------------------------  -->
+  <section id="projects">
+    <div class="service-header">
+      <h4 class="subtitle">Projects</h4>
+      <h2 class="section-title">My Work bring results. <br> My clients are proof.</h2>
     </div>
 
-    </Footer>
-        <!-- footer section end -->
+    <div class="projects-container">
+      <div class="card project-card">
+        <img src="./images/projects1.png" alt="food website">
+        <h6 class="subtitle project-title">Design & Development</h6>
+        <p class="project-name">restaurant Website </p>
+        <span>
+          <a href="">view Projcets</a> <i class="fa-solid fa-arrow-right-long"></i>
+        </span>
+      </div>
+      <div class="card project-card">
+        <img src="./images/projects3.png" alt="food website">
+        <h6 class="subtitle project-title">Design & Development</h6>
+        <p class="project-name">restaurant Website </p>
+        <span>
+          <a href="">view Projcets</a> <i class="fa-solid fa-arrow-right-long"></i>
+        </span>
+      </div>
+      <div class="card project-card">
+        <img src="./images/projects2.png" alt="food website">
+        <h6 class="subtitle project-title">Design & Development</h6>
+        <p class="project-name">restaurant Website </p>
+        <span>
+          <a href="">view Projcets</a> <i class="fa-solid fa-arrow-right-long"></i>
+        </span>
+      </div>
+    </div>
+
+
+  </section>
+  <!---------------------------------- projects section----------------------------------------------  -->
+  <!---------------------------------- eductions section----------------------------------------------  -->
+  <section id="eduction">
+    <div class="eduction-container">
+      <div class="edu-col">
+        <h5 class="col-title">Eduction</h5>
+        <div class="col">
+          <h5 class="col-name">Stanford University</h5>
+          <div class="subject">
+            <p>MSc (Human Computer)</p> <li>2013-2015</li>
+          </div>
+        </div>
+        <div class="col">
+          <h5 class="col-name">MIT Summer School</h5>
+          <div class="subject">
+            <p>UX Training Bootcamp</p> <li>2013-2014</li>
+          </div>
+        </div>
+        <div class="col">
+          <h5 class="col-name">California State University</h5>
+          <div class="subject">
+            <p>BSc in Software Engineering</p> <li>2009-2012</li>
+          </div>
+        </div>
+      </div>
+      <div class="edu-col">
+        <h5 class="col-title">Work Experience</h5>
+        <div class="col">
+          <h5 class="col-name">SpaceFleet</h5>
+          <div class="subject">
+            <p>Senior Product Designer</p> <li>2013-2015</li>
+          </div>
+        </div>
+        <div class="col">
+          <h5 class="col-name">
+            MusicMash</h5>
+          <div class="subject">
+            <p>Information Architect</p> <li>2013-2014</li>
+          </div>
+        </div>
+        <div class="col">
+          <h5 class="col-name">Kingdom</h5>
+          <div class="subject">
+            <p>UI Designer</p>  <li>2019-2022</li>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </section>
+  <!---------------------------------- eductions section----------------------------------------------  -->
+  <!---------------------------------- testimonial section----------------------------------------------  -->
+
+  <section id="testimonial">
+    <div class="testimonial-container">
+      <div class="testimonial-header">
+        <h4 class="subtitle">TESTIMONIALS</h4>
+        
+        
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img src="./images/testimonial.jpeg" alt="testimonial">
+              <div class="testimonial-quote">
+<h5>Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</h5>
+<p>John Frankin</p>
+<span>Founder, Double Bunch</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img src="./images/testimonial2.jpeg" alt="testimonial">
+              <div class="testimonial-quote">
+<h5>This is unbelievable. After using Testiminial Generator my buisness skyrocketed!</h5>
+<p>Jennifer Musk</p>
+<span>Project Manager@ Microsoft</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+   
+  </section>
+  <!---------------------------------- testimonial section----------------------------------------------  -->
+  <!---------------------------------- footer section----------------------------------------------  -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-header">
+        <h1>Ready to make something beautiful?</h1>
+        <h2>Let's get on a call
+
+          <i class="fa-solid fa-arrow-right-long arrow"></i>
+        </h2>
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-col footer-col-1">
+          <h4 class="footer-logo">Portfolio Creator</h4>
+          <small class="portfolio-address">4353 Delaware Avenue, San Francisco, USA</small>
+         
+            <a class="footer-mail"href="mailto:iamabirhasan07@gmail.com">iamabirhasan07@gmail.com</a>
+            
+        
+        </div>
+
+        <ul class="footer-list">
+          <li>About</li>
+          <li>Contact</li>
+          <li>Dribble</li>
+        </ul>
+        <ul class="footer-list">
+          <li>Service</li>
+          <li>Blog</li>
+          <li>Instagram</li>
+        </ul>
+        <ul class="footer-list">
+          <li>Experience</li>
+          <li>Projects</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <!---------------------------------- footer section----------------------------------------------  -->
+   <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <!-- Swiper JS -->
+  <script src="./script.js"></script>
 </body>
 
 </html>
