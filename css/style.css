@@ -270,11 +270,18 @@ header .container{
     gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
-.project-card{background-color: var(--whiteDark);
+.project-card{
+    background-color: var(--whiteDark);
     box-shadow: var(--shadow);
+    border-radius: 10px;
 
+}
+
+.project-card img{
+    width: 100%;
 }
 .project-card h6{
     font-size: var(--subtitle1);
